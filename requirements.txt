@@ -1,7 +1,7 @@
 # 自适应推理系统依赖包
 
 # 核心依赖
-python>=3.8
+# Python版本要求: >=3.8 (通过setup.py或系统检查来验证)
 
 # LLM API客户端
 openai>=1.0.0
@@ -13,7 +13,7 @@ fastapi>=0.68.0
 uvicorn>=0.15.0
 
 # 异步处理
-asyncio
+# asyncio 是Python标准库，无需安装
 aiohttp>=3.8.0
 
 # 数据处理

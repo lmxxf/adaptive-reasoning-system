@@ -67,6 +67,15 @@ system_config.json
 .DS_Store
 Thumbs.db
 
-# API Keys
+# API Keys and Sensitive Config
 api_keys.txt
 .api_keys
+.api_key*
+.env
+.env.local
+.env.production
+*.key
+
+# Keep the example and setup scripts
+!config_example.py
+!set_api_key.sh
